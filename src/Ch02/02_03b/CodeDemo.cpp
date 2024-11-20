@@ -4,9 +4,29 @@
 
 #include <iostream>
 
+using namespace std;
+
+int a, b = 10;
+
 int main(){
-    std::cout << "Hi There!" << std::endl;
+    bool my_flag;
+    a = 7;
+    my_flag = false;
+
+    cout << "My Flag = " << my_flag << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl << endl;
+
+    my_flag = true;
+    cout << "My Flag = " << my_flag << endl;
+    cout << "a + b = " << a + b << endl;
+    cout << "b - a = " << b - a << endl << endl;
+
+    unsigned int positive;
+    positive = a - b;
+    cout << "a - b = " << a - b << endl;
+    cout << "a - b (unsigned) = " << positive << endl;
     
-    std::cout << std::endl << std::endl;
+    cout << endl << endl;
     return (0);
 }

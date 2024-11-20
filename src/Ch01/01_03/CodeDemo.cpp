@@ -5,11 +5,19 @@
 #include <iostream>
 #include <string>
 
-int main(){
-    std::string str;
-    std::cin >> str;
-    std::cout << str;
+using namespace std;
 
-    std::cout << std::endl << std::endl;
+int main(){
+
+    cout << "Input User Name: ";
+
+    string name;
+    cin >> name;
+    cout << endl;
+
+    cout << name << " is cool." << endl;
+    cout << endl << endl;
+    
     return (0);
+
 }
